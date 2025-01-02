@@ -1,0 +1,57 @@
+---
+import BentoItem from "./BentoItem.astro";
+---
+
+<section id="servicios" class="mt-32 pt-10">
+  <h2 class="text-center font-bold text-xl">SERVICIOS</h2>
+
+  <div
+    class="w-full max-w-[1200px] grid grid-cols-10 auto-rows-[24rem] gap-4 mx-auto p-20 pt-10"
+  >
+    <BentoItem
+      class="col-span-10 md:col-span-4"
+      title="TITULO DEL SERVICIO 1"
+      subtitle="Subtitle1"
+    >
+      <p slot="content" class="max-w-xl text-md">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+    </BentoItem>
+
+    <BentoItem
+      class="col-span-10 md:col-span-6"
+      title="TITULO DEL SERVICIO 2"
+      subtitle="Subtitle 2"
+    >
+      <p slot="content" class="max-w-xl text-md">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+    </BentoItem>
+    <BentoItem
+      class="col-span-10 md:col-span-6"
+      title="TITULO DEL SERVICIO 3"
+      subtitle="loremdjadjajdajdajdjajj"
+    >
+      <p slot="content" class="max-w-xl text-md">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+    </BentoItem>
+    <BentoItem
+      class="col-span-10 md:col-span-4"
+      title="TITULO DEL SERVICIO 4"
+      subtitle="loremdjadjajdajdajdjajj"
+    >
+      <p slot="content" class="max-w-xl text-md">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+    </BentoItem>
+  </div>
+</section>
