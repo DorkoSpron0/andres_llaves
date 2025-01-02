@@ -1,0 +1,40 @@
+---
+import whatsAppLogo from "../assets/wpp.svg";
+import facebookLogo from "../assets/facebook.svg";
+import instagramLogo from "../assets/instagram.svg";
+import gmailLogo from "../assets/gmail.svg";
+---
+
+<footer class="bg-gray-800 p-4 text-white" id="contacto">
+  <div class="max-w-[1200px] px-12 py-4 m-auto">
+    <h2 class="text-center text-xl font-bold">CONTÁCTAME</h2>
+
+    <div class="flex m-auto justify-between mb-4">
+      <div class="flex gap-4">
+        <h2 class="font-bold text-xl">ANDRES LLAVES</h2>
+        <a
+          href="https://api.whatsapp.com/send?phone=573127773888"
+          target="_blank"><img src={whatsAppLogo.src} width="24" alt="" /></a
+        >
+        <p>+57 312 7773888</p>
+      </div>
+
+      <div class="flex gap-4">
+        <h2 class="font-bold text-xl">REDES</h2>
+        <a href="https://www.facebook.com/andres.llaves.1/" target="_blank"
+          ><img src={facebookLogo.src} width="24" alt="" /></a
+        >
+        <a href="#" target="_blank"
+          ><img src={instagramLogo.src} width="26" alt="" /></a
+        >
+        <a href="mailto:test@test.com"
+          ><img src={gmailLogo.src} width="26" alt="" /></a
+        >
+      </div>
+    </div>
+
+    <hr class="border border-gray-700 m-auto text-center" />
+
+    <p class="mt-4">© ANDRES LLAVES 2025 Todos los derechos reservados</p>
+  </div>
+</footer>
