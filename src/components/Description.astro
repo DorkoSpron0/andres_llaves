@@ -3,11 +3,17 @@ import placeholder from "../assets/background.svg";
 ---
 
 <section
-  class="flex justify-center w-full pt-[150px] max-w-[1200px] mx-auto px-12"
+  class="md:flex justify-center w-full pt-[70px] md:pt-[150px] max-w-[1200px] mx-auto px-12"
   id="description"
 >
+  <img
+    src="/andresllaves.jpg"
+    class="w-full mb-4 rounded-xl inline-flex md:hidden"
+    alt=""
+  />
+
   <div
-    class="textos flex flex-col justify-center md:pr-12 md:justify-start md:max-w-[700px]"
+    class="textos flex flex-col justify-center md:pr-12 md:justify-start md:max-w-[650px]"
   >
     <div class="flex flex-col justify-start">
       <img src="/llave2.jpg" class="rounded-full mb-3" width="64" alt="" />
@@ -17,21 +23,24 @@ import placeholder from "../assets/background.svg";
       </h1>
     </div>
 
-    <p class="">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-      necessitatibus dicta labore quo! Nesciunt laudantium ipsam dignissimos
-      eaque? Alias, fugiat? Modi excepturi in sed voluptatum omnis! Dolorum
-      provident, quis magni soluta ullam dignissimos assumenda minima similique
-      quod, officia modi dolore. Incidunt, quibusdam ipsam autem repellendus
-      corrupti rerum velit perspiciatis optio.
+    <p class="text-lg">
+      Soy Andrés Llaves, un <strong class="text-blue-500"
+        >cerrajero apasionado</strong
+      > por brindar soluciones rápidas y seguras. Con <strong
+        class="text-blue-500">profesionalismo, responsabilidad</strong
+      > y un <strong class="text-blue-500">compromiso</strong> inquebrantable hacia
+      mi trabajo y mis clientes, garantizo que tus necesidades están en las mejores
+      manos. <strong class="text-blue-500">
+        Confía en mi experiencia para proteger lo que más valoras</strong
+      >.
     </p>
   </div>
 
-  <div class="flex w-full">
+  <div class="flex w-full hidden md:inline-flex">
     <img
       src="/andresllaves.jpg"
       alt="andres_llaves_logo"
-      class="rounded-xl hidden md:block"
+      class="rounded-xl hidden md:inline-flex"
     />
   </div>
 </section>
