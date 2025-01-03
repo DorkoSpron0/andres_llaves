@@ -27,21 +27,25 @@
 
 <style>
 	ul {
-		animation: nav-shadown 3s ease-out both;
+		animation: nav-shadown 20s ease-out both;
 		animation-timeline: scroll();
 		animation-range: 0 200px;
 	}
 
 	ul {
-		@apply bg-gray-200;
+		@apply bg-gray-800;
 	}
 
 	@keyframes nav-shadown {
 		0% {
 			@apply bg-white/0;
 		}
+		5% {
+			@apply text-black;
+		}
 		to {
 			@apply shadow-lg ring-1 backdrop-blur ring-white/10;
+			@apply text-white;
 		}
 	}
 </style>
