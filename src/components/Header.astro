@@ -7,7 +7,7 @@
 		>
 			<li>
 				<a
-					href="#description"
+					href="#"
 					class="relative block px-2 py-2 transition hover:text-blue-500"
 					>INICIO</a
 				>
@@ -27,7 +27,7 @@
 
 <style>
 	ul {
-		animation: nav-shadown 3s ease-out both;
+		animation: nav-shadown 2s ease-out both;
 		animation-timeline: scroll();
 		animation-range: 0 200px;
 	}
@@ -39,9 +39,6 @@
 	@keyframes nav-shadown {
 		0% {
 			@apply bg-white/0;
-		}
-		5% {
-			@apply text-black;
 		}
 		to {
 			@apply shadow-lg ring-1 backdrop-blur ring-white/10;
