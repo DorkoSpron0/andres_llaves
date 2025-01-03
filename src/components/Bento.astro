@@ -8,43 +8,55 @@ import BentoItem from "./BentoItem.astro";
   <div
     class="w-full md:max-w-[1200px] grid grid-cols-10 auto-rows-[30rem] gap-4 mx-auto p-10 pt-10"
   >
-    <BentoItem class="col-span-10 md:col-span-6" title="CLONACIÓN DE LLAVE">
+    <BentoItem class="col-span-10 md:col-span-6" title="COPIA DE LLAVE">
       <div
         slot="image"
-        class="absolute left-0 top-0 bottom-0 w-full h-full opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-sky-500/30 -z-10"
+        class="absolute left-0 top-0 bottom-0 w-full h-full opacity-90 bg-blend-luminosity rounded bg-center bg-cover bg-no-repeat bg-sky-500/30 -z-10"
         style="background-image: url(/llave_lector_s1.jpg);"
       >
       </div>
 
       <p slot="content" class="max-w-xl text-md text-white">
-        El servicio de cerrajería de clonación de llave ofrece la duplicación
-        precisa de llaves, garantizando copias funcionales y seguras para
-        hogares, vehículos y negocios, con rapidez y profesionalismo.
+        Copia de llaves de seguridad, llaves con chip y todo tipo de vehiculo.
+        Elaboración de llaves sin muestra para todo tipo tipo de vehiculo <strong
+          >con chip y sin chip.</strong
+        >
       </p>
     </BentoItem>
 
     <BentoItem
       class="col-span-10 md:col-span-4 md:row-span-2"
-      title="TITULO DEL SERVICIO 2"
+      title="APERTURA Y REPARACIÓN DE CERRADURAS"
     >
-      <p slot="content" class="max-w-xl text-md">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+      <div
+        slot="image"
+        class="absolute left-0 top-0 bottom-0 w-full h-full opacity-90 rounded bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-sky-500/30 -z-10"
+        style="background-image: url(/apertura.jpg);"
+      >
+      </div>
+
+      <p slot="content" class="max-w-xl text-md text-white">
+        ¿Olvidaste tus llaves? Aquí en <strong>ANDRÉS LLAVES</strong> te ayudamos
+        con cualquier tipo de cerradura de seguridad, vehicular y digital.
       </p>
     </BentoItem>
-    <BentoItem class="col-span-10 md:col-span-3" title="TITULO DEL SERVICIO 3">
-      <p slot="content" class="max-w-xl text-md">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+    <BentoItem class="col-span-10 md:col-span-3" title="APERTURA">
+      <div
+        slot="image"
+        class="absolute left-0 top-0 bottom-0 w-full h-full rounded opacity-90 bg-blend-luminosity bg-center bg-cover bg-no-repeat bg-sky-500/30 -z-10"
+        style="background-image: url(/apertura_s3.jpg);"
+      >
+      </div>
+
+      <p slot="content" class="max-w-xl text-md text-white">
+        ¿Se te quedaron las llaves adentro? No te preocupes, estoy calificado
+        para abrir cualquir tipo de carro. apertura caja fuerte, programacion de
+        carros
       </p>
     </BentoItem>
-    <BentoItem class="col-span-10 md:col-span-3" title="TITULO DEL SERVICIO 4">
-      <p slot="content" class="max-w-xl text-md">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s
+    <BentoItem class="col-span-10 md:col-span-3" title="VENTA DE CERRADURAS">
+      <p slot="content" class="max-w-xl text-md text-white">
+        Digitales, de seguridad, platina de seguridad y cilindros
       </p>
     </BentoItem>
   </div>

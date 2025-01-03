@@ -16,6 +16,10 @@
 		<slot />
 
 		<style is:global>
+			:root {
+				color-scheme: light;
+			}
+
 			body {
 				min-height: 100vh;
 			}
@@ -27,6 +31,23 @@
 			body {
 				opacity: 0;
 				transition: opacity 1.5s;
+			}
+
+			::-webkit-scrollbar {
+				width: 8px;
+			}
+			::-webkit-scrollbar-track {
+				background: transparent;
+				backdrop-filter: blur(10px);
+				border-radius: 5px;
+			}
+			::-webkit-scrollbar-thumb {
+				background: rgba(17, 17, 17, 0.3);
+				backdrop-filter: blur(10px);
+				border-radius: 5px;
+			}
+			::-webkit-scrollbar-thumb:hover {
+				background: rgba(0, 0, 0, 0.5);
 			}
 		</style>
 	</body>
